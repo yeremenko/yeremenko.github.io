@@ -289,9 +289,9 @@ nav ul li img
 #section_main_bg
 {   width:100%;
 	min-width:960px;
-    background-image:url('images/bg_grey.jpg');
-    background-repeat:;
-    background-color:#eeeeee;
+/*    background-image:url('images/bg_grey.jpg');
+    background-repeat:;*/
+    background-color:#232323;
     height:497px;
     border-style:solid;
     border-color:#cccccc;
@@ -549,8 +549,8 @@ nav ul li#portfolio_link
 #heading_bg
 {   width:100%;
     height:145px;
-    background-image:url('images/header_shadow.png');
-    background-repeat:repeat-x;
+/*    background-image:url('images/header_shadow.png');
+    background-repeat:repeat-x;*/
     }
     
 #heading
