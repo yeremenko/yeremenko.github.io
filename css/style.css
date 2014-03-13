@@ -502,13 +502,13 @@ nav ul li img
 {   background-position:0px -35px;
     }
 #section_footer #links_social #facebook
-{   background-image:url('images/icon_fb.png');
+{   background-image:url('../img/icon_fb.png');
     }   
 #section_footer #links_social #twitter
-{   background-image:url('images/icon_tw.png');
+{   background-image:url('../img/icon_tw.png');
     }
 #section_footer #links_social #dribbble
-{   background-image:url('images/icon_db.png');
+{   background-image:url('../img/icon_db.png');
     }
 
 /* PORTFOLIO SECTION BEGINS ---------------------------------- */
