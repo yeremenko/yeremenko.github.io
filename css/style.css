@@ -176,12 +176,15 @@ p#sig
 {   font-size:24pt;
     }
    
-#footer p a
+#footer p, #footer p a
 {   font-size:10pt;
     font-weight:lighter;
     color:#999999;
     cursor:pointer;
-    }   
+    }
+#footer p a
+{   cursor:pointer;
+    }
 #footer p a:link
 {   color:#999999;
     }
