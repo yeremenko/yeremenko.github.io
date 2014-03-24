@@ -1,107 +1,135 @@
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Greatest Of All Time Design</title>
     <meta charset="utf-8">
     <meta name="description" content="The Greatest of All Time Design. Simple and clean print and web design and development based in Brooklyn.">
     <meta name="keywords" content="madebygoat, made by goat, g.o.a.t, G.O.A.T, Design, Develop, Greatest of All Time, Designer, Developer, Brooklyn, New York, nyc web design company, website design nyc, website designer nyc, custom web development, nyc website design, website design nyc, nyc web site design">
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 
-    <script type="text/javascript" src="js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+
 </head>
 
 <body>
-        <div id="header">
-            <div id="header_logo">
-                <a href="http://madebygoat.com/index.html"><img src="img/goat_logo.png" alt="G.O.A.T Logo" height="63px" width="182px"></a>
-            </div>
-            <nav>
-                <ul>
-<!--                <li id="portfolio_link" class="link_nav"><a href=#><img src="images/icon_portfolio.png" alt="briefcase icon" />Portfolio (coming soon)</a></li-->
-                    <li id="contact_link" class="link_nav"><a href="mailto:hello@madebygoat.com"><img src="img/icon_contactme.png" alt="mail icon">Contact Me</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="section_main_bg">
-            <div id="section_main">
-                <div id="description">
-                    <img src="img/main_title.png" alt="Greatest Of All Time Heading" width="100%">
-                    <p>Hello! My name is Sergey, and I am a designer 
-turned avid web developer based in Brooklyn. I craft simple and clean 
-pixel-perfect designs for print and the web.</p><br><p>Be sure to check out my work on <a href="http://dribbble.com/yeremenko" target="_blank">Dribbble,</a><br> and follow me on <a href="http://twitter.com/madebygoat" target="_blank">Twitter!</a></p>
-<!--                <p id="sig">&nbsp;- Sergey</p>-->
-                </div>
-                <div id="hire_button">
-                    <a href="http://madebygoat.com/contact.html" width="135px" height="135px">
-                        <img id="hire_me" src="img/hire_me.png" alt="Hire Me Button">
-                    </a>
-                </div>
+    <header>
+        <div id="header-inner" class="container">
+            <a href="http://madebygoat.com/index.html" id="header-logo"><img src="img/goat-logo.png" alt="G.O.A.T Logo" height="60px"></a>
+            <div class="contact-link-wrapper pull-right">
+                <a href="mailto:hello@madebygoat.com" id="contact-link"><span class="glyphicon glyphicon-envelope"></span>Contact Me</a>
             </div>
         </div>
-        <div id="section_skills">
-            <h3>Skills &amp; Tools </h3>
-            <div class="skills_icons_wrapper">
-                <div id="skills_printdesign">
-                    <img src="img/icon_printdesign.png" alt="Print Design Icon">
+    </header>
+    <section id="section-main">
+        <div id=""class="container">
+            <div id="description" class="row">
+                <div class="col-sm-8">
+                    <h1>Greatest Of All Time Design</h1>
+                    <p>Hello! My name is Sergey, and I am a designer turned avid web developer based in Brooklyn. <span class="no-split">I craft</span> simple and clean pixel-perfect designs for print and the web.</p>
+
+                    <p class="work-links">Be sure to check out my work on <a href="http://dribbble.com/yeremenko" target="_blank">Dribbble,</a><br> and follow me on <a href="http://twitter.com/madebygoat" target="_blank">Twitter!</a></p>
                 </div>
-                <p>Graphic Design</p>
             </div>
-            <div class="skills_icons_wrapper">
-                <div id="skills_webdesign">
-                    <img src="img/icon_webdesign.png" alt="Web Design Icon">
-                </div>
-                <p>Web Design</p>
-            </div>
-            <div class="skills_icons_wrapper">
-                <div id="skills_webdev">
-                    <img src="img/icon_webdev.png" alt="Web Development Icon">
-                </div>
-                <p>Web Development</p>
+            <div id="hire-btn">
+                <!-- <a href="http://madebygoat.com/contact.html" width="135px" height="135px">
+                    <img id="hire_me" src="img/hire_me.png" alt="Hire Me Button">
+                </a> -->
             </div>
         </div>
-        <div id="section_tools">
-            <div class="tools_wrapper" id="tools_wrapper_left">
-                <div class="tools_text_wrapper">
-                    <p>Photoshop</p>
-                    <p>Illustrator</p>
-                    <p>Indesign</p>
+    </section>
+    <section id="section-skills">
+        <div class="container">
+            <h2 class="text-center">Skills &amp; Tools </h2>
+            <div class="row">
+                <div class="skills-icons-wrapper col-sm-4">
+                    <img src="img/icon-printdesign.png" alt="Print Design" class="img-skills img-responsive">
+                    <p class="text-center">Graphic Design</p>
                 </div>
-                <div class="tools_chart_wrapper">
-                    <span><img src="img/hearts_ps.png" alt=""></span>
-                    <span><img src="img/hearts_il.png" alt=""></span>
-                    <span><img src="img/hearts_id.png" alt=""></span>
+                <div class="skills-icons-wrapper col-sm-4">
+                    <img src="img/icon-webdesign.png" alt="Web Design" class="img-skills img-responsive">
+                    <p class="text-center">Web Design</p>
                 </div>
-            </div>
-            <div class="tools_wrapper" id="tools_wrapper_right">
-                <div class="tools_text_wrapper">
-                    <p>HTML5</p>
-                    <p>CSS3</p>
-                    <p>JavaScript</p>
-                </div>
-                <div class="tools_chart_wrapper">
-                    <span><img src="img/stars_html.png" alt=""></span>
-                    <span><img src="img/stars_css.png" alt=""></span>
-                    <span><img src="img/stars_js.png" alt=""></span>
+                <div class="skills-icons-wrapper col-sm-4">
+                    <img src="img/icon-webdev.png" alt="Web Development" class="img-skills img-responsive">
+                    <p class="text-center">Web Development</p>
                 </div>
             </div>
         </div>
-        <div id="section_link">
-            <a href="http://madebygoat.com/contact.html" class="contact_button"></a>
-        </div>
-    <div id="footer">
-        <div id="section_footer">
-            <div id="about">
-                <p>Greatest Of All Time Design 2014 ©</p>
-                <p>Designed and developed in <a href="http://maps.google.com/maps?hl=en&amp;q=11229&amp;bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&amp;biw=1440&amp;bih=805&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wl" target="_blank">Brooklyn, New York</a></p>
-                <p>By <a href="http://www.facebook.com/yeremenko" target="_blank">Sergey Yeremenko </a></p>
+    </section>
+    <section id="section-tools">
+        <div class="container">
+            <div class="row">
+                <div id="tools-design" class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p class="tools-text text-right">Photoshop</p>
+                        </div>
+                        <div class="col-sm-8">
+                            <img src="img/hearts-ps.png" alt="" class="tools-chart img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="tools-text text-right">Illustrator</p>
+                        </div>
+                        <div class="col-sm-8">
+                            <img src="img/hearts-il.png" alt="" class="tools-chart img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="tools-text text-right">InDesign</p>
+                        </div>
+                        <div class="col-sm-8">
+                            <img src="img/hearts-id.png" alt="" class="tools-chart img-responsive">
+                        </div>
+                    </div>
+                </div>
+                <div id="tools-code" class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p class="tools-text text-right">HTML5</p>
+                        </div>
+                        <div class="col-sm-8">
+                            <img src="img/stars-html.png" alt="" class="tools-chart img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="tools-text text-right">CSS3</p>
+                        </div>
+                        <div class="col-sm-8">
+                            <img src="img/stars-css.png" alt="" class="tools-chart img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="tools-text text-right">JavaScript</p>
+                        </div>
+                        <div class="col-sm-8">
+                            <img src="img/stars-js.png" alt="" class="tools-chart img-responsive">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="links_social">
-                <a id="facebook" class="icon_social" href="https://www.facebook.com/goatdesign" target="_blank"></a>
-                <a id="twitter" class="icon_social" href="https://twitter.com/madebygoat" target="_blank"></a>
-                <a id="dribbble" class="icon_social" href="http://dribbble.com/yeremenko" target="_blank"></a>
+        </div>
+    </section>
+    <div id="contact-btn" class="container text-center">
+        <a href="mailto:hello@madebygoat.com" class="contact_button">Contact Me</a>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div id="about" class="col-md-6">
+                    <p>Greatest Of All Time Design 2014 ©</p>
+                    <p>Designed and developed in <a class="no-split" href="//maps.google.com/maps?hl=en&amp;q=11229&amp;bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&amp;biw=1440&amp;bih=805&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wl" target="_blank">Brooklyn, New York</a></p>
+                    <p>By <a class="no-split" href="http://www.facebook.com/yeremenko" target="_blank">Sergey Yeremenko </a></p>
+                </div>
+                <div id="links-social" class="col-md-6">
+                    <a id="facebook" class="icon_social" href="//www.facebook.com/goatdesign" target="_blank"><img src="" alt="Facebook"></a>
+                    <a id="twitter" class="icon_social" href="//twitter.com/madebygoat" target="_blank"><img src="" alt="Facebook"></a>
+                    <a id="dribbble" class="icon_social" href="//dribbble.com/yeremenko" target="_blank"><img src="" alt="Facebook"></a>
+                </div>
             </div>
         </div>    
-    </div>
+    </footer>
 
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-</body></html>
+</body>
+</html>
