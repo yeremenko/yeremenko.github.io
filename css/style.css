@@ -152,6 +152,30 @@ footer a:focus {
 	color: #2468a2;
 	text-decoration: none;
 }
+.icon-social {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+#facebook {
+	background-image: url('../img/icon-fb.png');
+}
+#twitter {
+	background-image: url('../img/icon-tw.png');
+}
+#dribbble {
+	background-image: url('../img/icon-db.png');
+}
+#facebook:hover,
+#facebook:focus,
+#twitter:hover,
+#twitter:focus,
+#dribbble:hover,
+#dribbble:focus {
+	background-position: 0 -35px;
+}
 
 @media (max-width:1600px) {
 
@@ -188,7 +212,7 @@ footer a:focus {
 		font-size: 28px;
 	}
 	h2 {
-		font-size: 24px;
+		font-size: 28px;
 	}
 	#hire-btn {
 		margin-left: auto;
@@ -215,5 +239,8 @@ footer a:focus {
 		text-align: center;
 		padding-top: 30px;
 		padding-bottom: 30px;
+	}
+	#links-social {
+		margin-top: 30px;
 	}
 }
