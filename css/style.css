@@ -11,7 +11,7 @@ p, a {
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 52px;
 }
 
 header {
@@ -207,12 +207,18 @@ footer a:focus {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
+	#section-main {
+		margin-bottom: 10px;
+	}
 	#description h1 {
 		text-align: center;
-		font-size: 28px;
+		font-size: 32px;
 	}
 	h2 {
 		font-size: 28px;
+	}
+	.work-links {
+		margin-top: 40px;
 	}
 	#hire-btn {
 		margin-left: auto;
