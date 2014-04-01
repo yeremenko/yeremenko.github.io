@@ -21,10 +21,13 @@ header {
 
 #header-logo {
 	height: 60px;
+	width: 175px;
+	display: inline-block;
 }
 
 .contact-link-wrapper {
 	margin-top: 15px;
+	min-width: 120px;
 }
 
 #contact-link {
