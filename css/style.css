@@ -2,7 +2,8 @@
 	display: inline-block;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4,
+.h1,.h2,.h3,.h4 {
 	font-family: 'Bree Serif', serif;
 }
 p, a {
@@ -72,6 +73,14 @@ header {
 #section-tools {
 	padding-top: 20px;
 	padding-bottom: 40px;
+}
+
+#section-tools .tools-text {
+	display: inline-block;
+}
+
+.tools-wrapper {
+	display: block;
 }
 
 #section-main .container {
@@ -233,8 +242,9 @@ footer a:focus {
 	#tools-code {
 		margin-top: 50px;
 	}
-	.tools-text {
+	#section-tools .tools-text {
 		text-align: center;
+		display: block;
 	}
 	.tools-chart {
 		margin-left: auto;
