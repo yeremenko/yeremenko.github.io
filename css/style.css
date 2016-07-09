@@ -3,7 +3,7 @@
 }
 h1,h2,h3,h4,
 .h1,.h2,.h3,.h4 {
-	font-family: 'Bree Serif', serif;
+	font-family: 'Work Sans', sans-serif;
 }
 h1, .h1 {
 	margin-bottom: 24px;
@@ -22,32 +22,37 @@ header,
 	padding-bottom: 30px;
 }
 #header-logo img {
-	height: 50px;
-	width: 145px;
-	margin: 0 auto;
 	display: block;
+
+	width: 145px;
+	height: 50px;
+	margin: 0 auto;
 }
 .contact-link-wrapper {
-	margin-top: 15px;
 	max-width: 120px;
+	margin-top: 15px;
 }
 #contact-link {
-	padding: 8px 0;
 	margin-top: 12px;
-	color: #333;
-	border-bottom: 2px solid #fff;
+	padding: 8px 0;
+
 	-webkit-transition:background .3s ease;
 	-moz-transition:background .3s ease;
 	-o-transition:background .3s ease;
 	transition:background .3s ease;
+
+	color: #333;
+	border-bottom: 2px solid #fff;
 }
 #contact-link:hover,
 #contact-link:focus {
-	border-bottom: 2px solid #2468a2;
 	text-decoration: none;
+
+	border-bottom: 2px solid #2468a2;
 }
 #contact-link .glyphicon {
 	margin-right: 8px;
+
 	color: #ccc;
 }
 #about-me p {
@@ -55,24 +60,28 @@ header,
 }
 #section-skills-inner,
 #footer-inner {
+	position: relative;
+
 	margin-top: 50px;
 	padding-top: 15px;
-	position: relative;
 }
 #section-skills-inner:before,
 #footer-inner:before {
-	content: '';
 	position: absolute;
-	left: 0;
 	top: -36px;
+	left: 0;
+
 	width: 100%;
 	height: 60px;
-	border-top: 1px solid #e7e7e7;
+
+	content: '';
 	-webkit-transform: skewY(4.6deg);
 	-moz-transform: skewY(4.6deg);
 	-ms-transform: skewY(4.6deg);
 	-o-transform: skewY(4.6deg);
 	transform: skewY(4.6deg);
+
+	border-top: 1px solid #e7e7e7;
 }
 #section-main {
 	background: #2468a2; /* Old browsers */
@@ -82,12 +91,13 @@ header,
 	background: -o-linear-gradient(-45deg, #2468a2 0%,#3282c6 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(-45deg, #2468a2 0%,#3282c6 100%); /* IE10+ */
 	background: linear-gradient(135deg, #2468a2 0%,#3282c6 100%); /* W3C */
+
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2468a2', endColorstr='#3282c6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 #section-main {
+	margin-bottom: 40px;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	margin-bottom: 40px;
 }
 #section-tools .tools-text {
 	display: inline-block;
@@ -110,11 +120,11 @@ header,
 	margin-bottom: 20px;
 }
 .work-links {
-	margin-top: 60px;
+	margin-top: 30px;
 }
 .img-skills {
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
 }
 .tools-text {
 	line-height: 21px;
@@ -129,46 +139,56 @@ header,
 }
 #contact-btn a {
 	padding: 12px 20px;
+
+	-webkit-transition: all .33s; /* Safari */
+    transition: all .33s;
+
 	color: #111;
 	/*background-color: #111;*/
 	border: 2px solid #111;
-	-webkit-transition: all .33s; /* Safari */
-    transition: all .33s;
 }
 #contact-btn a:hover,
 #contact-btn a:focus {
 	text-decoration: none;
+
 	color: #fff;
 	background-color: #111;
 }
 footer {
-	color: #888;
 	padding-top: 60px;
 	padding-bottom: 90px;
+
+	color: #888;
 	/*background-color: #efefef;*/
 }
 footer p,
 footer a {
-	font-size: 14px;
 	margin-bottom: 4px;
+
+	font-size: 14px;
 }
 footer a {
 	color: #555;
 }
 footer a:hover,
 footer a:focus {
-	color: #111;
-	font-weight: 600;
 	text-decoration: none;
+
+	color: #111;
+
+	font-weight: 600;
 }
 .icon-social {
 	display: inline-block;
+
 	width: 35px;
 	height: 35px;
-	background-position: 0 0;
-	background-repeat: no-repeat;
+
 	-webkit-transition: all .33s; /* Safari */
     transition: all .33s;
+
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 #facebook {
 	background-image: url('../img/icon-fb.png');
@@ -192,15 +212,20 @@ footer a:focus {
 
 }
 
-@media (max-width:992px) {
-
+@media (min-width:769px) and (max-width:992px) {
+  h1, .h1 {
+		font-size: 30px;
+		line-height: 30px;
+	}
 }
 
 @media (max-width:768px) {
 	h1, .h1 {
+    margin-top: 15px;
+		margin-bottom: 18px;
+
 		font-size: 26px;
 		line-height: 28px;
-		margin-bottom: 18px;
 	}
 	header {
 	    padding-top: 30px;
@@ -208,8 +233,9 @@ footer a:focus {
 	}
 	#header-logo img {
 		display: block;
-		margin-left: auto;
+
 		margin-right: auto;
+		margin-left: auto;
 	}
 	.contact-link-wrapper {
 		width: 100%;
@@ -217,10 +243,12 @@ footer a:focus {
 	}
 	#contact-link {
 		display: block;
+
 		max-width: 120px;
-		text-align: center;
-		margin-left: auto;
 		margin-right: auto;
+		margin-left: auto;
+
+		text-align: center;
 	}
 	#section-skills-inner,
 	#footer-inner {
@@ -232,6 +260,7 @@ footer a:focus {
 	}
 	#description h1 {
 		text-align: center;
+
 		font-size: 32px;
 	}
 	h2 {
@@ -244,12 +273,13 @@ footer a:focus {
 		margin-top: 50px;
 	}
 	#section-tools .tools-text {
-		text-align: center;
 		display: block;
+
+		text-align: center;
 	}
 	.tools-chart {
-		margin-left: auto;
 		margin-right: auto;
+		margin-left: auto;
 	}
 	.img-skills {
 		width: 60%;
@@ -260,12 +290,14 @@ footer a:focus {
 	    margin-bottom: 20px;
 	}
 	footer {
-		text-align: center;
 		padding-top: 30px;
 		padding-bottom: 30px;
+
+		text-align: center;
 	}
 	#links-social {
-		text-align: center !important;
 		margin-top: 20px;
+
+		text-align: center !important;
 	}
 }
