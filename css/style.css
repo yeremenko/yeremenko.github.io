@@ -12,9 +12,6 @@ p, a {
 	font-family: 'Cardo', serif;
 	font-size: 18px;
 }
-h1 {
-	font-size: 52px;
-}
 header,
 #section-skills,
 #section-tools {
@@ -57,6 +54,9 @@ header,
 }
 #about-me p {
 	line-height: 30px;
+}
+#about-me p.h1 {
+  font-weight: 800;
 }
 #section-skills-inner,
 #footer-inner {
