@@ -9,85 +9,97 @@
     <link rel="icon" type="image/png" href="img/favicon.png?v=2">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:800,600' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+  <div class="container-fluid">
     <header>
-        <div id="header-inner" class="container" itemscope itemtype="http://schema.org/Organization">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-                    <a href="http://madebygoat.com" id="header-logo" class="">
-                        <img src="img/new-goat.png" alt="GOAT Design" itemprop="logo">
-                    </a>
-                    <!--<div class="contact-link-wrapper pull-right hidden-xs">
-                        <a href="mailto:hello@madebygoat.com" id="contact-link" itemprop="email">hello@madebygoat.com</a>
-                    </div>-->
-                </div>
-            </div>
-        </div>
+      <div id="header-inner" itemscope itemtype="http://schema.org/Organization">
+        <a href="http://madebygoat.com" id="header-logo" class="">
+            <img src="img/new-goat.png" alt="GOAT Design" itemprop="logo">
+        </a>
+        <!--<div class="contact-link-wrapper pull-right hidden-xs">
+            <a href="mailto:hello@madebygoat.com" id="contact-link" itemprop="email">hello@madebygoat.com</a>
+        </div>-->
+      </div>
     </header>
     <section id="about-me">
-        <div class="container">
-            <div class="row">
-                <div itemscope itemtype="http://schema.org/Organization"class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
-                    <p class="h1" itemprop="brand">Greatest Of All Time Design</p>
-                    <p>My name is Sergey, and I am a designer turned self-taught web developer from Brooklyn. <span itemprop="description">Now living in Los Angeles, I craft simple and clean pixel-perfect designs for print and the web.</span> I have a passion for creating a great user experience as well as a love for the smallest details.</p>
+      <div itemscope itemtype="http://schema.org/Organization">
+          <p class="h1 text-center" itemprop="brand">Greatest Of All Time Design</p>
+          <p>
+            My name is Sergey, and I am a designer turned self-taught web developer from Brooklyn. <span itemprop="description">Now living in Los Angeles, I craft simple and clean pixel-perfect designs for print and the web.</span> I have a passion for creating a great user experience as well as a love for the smallest details.
+          </p>
 
-                    <p class="work-links">Be sure to check out some of my work on <a href="http://dribbble.com/yeremenko" target="_blank" itemprop="contactPoint">Dribbble</a>, my latest projects on <a href="http://github.com/yeremenko" target="_blank" itemprop="contactPoint">Github</a>, and follow me on <a href="http://twitter.com/yrmnko" target="_blank" itemprop="contactPoint">Twitter</a>!</p>
-                </div>
+          <p class="work-links">Be sure to check out some of my work on <a href="http://dribbble.com/yeremenko" target="_blank" itemprop="contactPoint">Dribbble</a>, my latest projects on <a href="http://github.com/yeremenko" target="_blank" itemprop="contactPoint">Github</a>, and follow me on <a href="http://twitter.com/yrmnko" target="_blank" itemprop="contactPoint">Twitter</a>!</p>
+      </div>
+      <div id="section-skills-inner">
+        <div class="row">
+            <div class="skills-icons-wrapper col-sm-4">
+                <img src="img/icon-printdesign.png" alt="Print Design" class="img-skills img-responsive">
+                <h2 class="h4 text-center">Graphic Design</h2>
+            </div>
+            <div class="skills-icons-wrapper col-sm-4">
+                <img src="img/icon-webdesign.png" alt="Web Design" class="img-skills img-responsive">
+                <h2 class="h4 text-center">Web Design</h2>
+            </div>
+            <div class="skills-icons-wrapper col-sm-4">
+                <img src="img/icon-webdev.png" alt="Web Development" class="img-skills img-responsive">
+                <h2 class="h4 text-center">Web Development</h2>
             </div>
         </div>
-    </section>
-    <section id="section-skills">
-        <div class="container">
-            <div class="row">
-                <div id="section-skills-inner" class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-                    <div class="row">
-                        <div class="skills-icons-wrapper col-sm-4">
-                            <img src="img/icon-printdesign.png" alt="Print Design" class="img-skills img-responsive">
-                            <h2 class="h4 text-center">Graphic Design</h2>
-                        </div>
-                        <div class="skills-icons-wrapper col-sm-4">
-                            <img src="img/icon-webdesign.png" alt="Web Design" class="img-skills img-responsive">
-                            <h2 class="h4 text-center">Web Design</h2>
-                        </div>
-                        <div class="skills-icons-wrapper col-sm-4">
-                            <img src="img/icon-webdev.png" alt="Web Development" class="img-skills img-responsive">
-                            <h2 class="h4 text-center">Web Development</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div id="contact-btn" class="text-center">
+            <a href="mailto:yrmnko@gmail.com" class="contact_button">Contact Me</a>
         </div>
+      </div>
     </section>
-    <div id="contact-btn" class="container text-center">
-        <a href="mailto:yrmnko@gmail.com" class="contact_button">Contact Me</a>
-    </div>
+    <!-- <section id="work">
+      <div id="work-inner">
+        <h3 class="text-center">Work</h3>
+        <div class="work-single">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="work-logo">
+                <img src="" alt="">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <h4>MacroResume</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p>Visit <a href="#">MacroResume</a> ></p>
+            </div>
+          </div>
+        </div>
+        <div class="work-single">
+          <div class="row">
+            <div class="col-sm-6 col-sm-push-6">
+              <div class="work-logo">
+                <img src="" alt="">
+              </div>
+            </div>
+            <div class="col-sm-6 col-sm-pull-6">
+              <h4>Metroly</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p>Visit <a href="#">MacroResume</a> ></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div id="footer-inner" class="col-sm-8 col-sm-offset-2 col-md-8 col-lg-offset-2">
-                    <div class="row">
-                        <div id="about" class="col-sm-6 col-md-8" itemscope itemtype="http://schema.org/Organization">
-                            <p>Greatest Of All Time 2017</p>
-                            <p>Designed and developed in <a class="no-split" href="//maps.google.com/maps?hl=en&amp;q=11229&amp;bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&amp;biw=1440&amp;bih=805&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wl" target="_blank"><span itemprop="location">Brooklyn, New York</span></a></p>
-                            <p>By <a class="no-split" href="http://www.facebook.com/yeremenko"><span itemporop="founder">Sergey Yeremenko</span></a></p>
-                        </div>
-                        <!-- <div id="links-social" class="text-right col-sm-6 col-md-4">
-                            <a id="facebook" class="icon-social" href="//www.facebook.com/goatdesign"> </a>
-                            <a id="twitter" class="icon-social" href="//twitter.com/madebygoat"></a>
-                            <a id="dribbble" class="icon-social" href="//dribbble.com/yeremenko"></a>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
+      <div id="footer-inner">
+        <div id="about" itemscope itemtype="http://schema.org/Organization">
+            <p>Greatest Of All Time 2018</p>
+            <p>Designed and developed in <a class="no-split" href="//maps.google.com/maps?hl=en&amp;q=11229&amp;bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&amp;biw=1440&amp;bih=805&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wl" target="_blank"><span itemprop="location">Brooklyn, New York</span></a></p>
+            <p>By <a class="no-split" href="http://www.facebook.com/yeremenko"><span itemporop="founder">Sergey Yeremenko</span></a></p>
         </div>
+      </div>
     </footer>
+  </div>
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -1,16 +1,34 @@
+body {
+  color: #010101;
+}
 .no-split {
 	display: inline-block;
 }
-h1,h2,h3,h4,
-.h1,.h2,.h3,.h4 {
+h1,h2,h3,h4,h5,
+.h1,.h2,.h3,.h4,.h5 {
 	font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
 }
 h1, .h1 {
+  font-size: 32px;
 	margin-bottom: 24px;
 }
 p, a {
 	font-family: 'Cardo', serif;
-	font-size: 18px;
+	font-size: 16px;
+}
+a {
+  color: #5732e9;
+}
+  a:hover,
+  a:focus {
+    color: #5225ff;
+  }
+.container-fluid {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 header,
 #section-skills,
@@ -41,31 +59,41 @@ header,
 	color: #333;
 	border-bottom: 2px solid #fff;
 }
-#contact-link:hover,
-#contact-link:focus {
-	text-decoration: none;
-
-	border-bottom: 2px solid #2468a2;
-}
-#contact-link .glyphicon {
-	margin-right: 8px;
-
-	color: #ccc;
-}
 #about-me p {
-	line-height: 30px;
+	line-height: 1.5;
+  color: rgba(0,0,0,0.67);
 }
 #about-me p.h1 {
-  font-weight: 800;
+  color: #010101;
 }
-#section-skills-inner,
+#section-skills-inner {
+  margin-top: 30px
+}
+#work {
+  padding-top: 50px;
+  margin-top: 30px;
+}
+#work h3 {
+  margin-bottom: 30px;
+}
+#work-inner {
+  position: relative;
+}
+.work-single {
+  margin-bottom: 60px;
+}
+.work-logo {
+  background: #010101;
+  display: block;
+  width: 100%;
+  height: 200px;
+}
 #footer-inner {
-	position: relative;
-
+  position: relative;
 	margin-top: 50px;
 	padding-top: 15px;
 }
-#section-skills-inner:before,
+#work-inner:before,
 #footer-inner:before {
 	position: absolute;
 	top: -36px;
@@ -75,13 +103,13 @@ header,
 	height: 60px;
 
 	content: '';
-	-webkit-transform: skewY(4.6deg);
-	-moz-transform: skewY(4.6deg);
-	-ms-transform: skewY(4.6deg);
-	-o-transform: skewY(4.6deg);
-	transform: skewY(4.6deg);
+	-webkit-transform: skewY(2.6deg);
+	-moz-transform: skewY(2.6deg);
+	-ms-transform: skewY(2.6deg);
+	-o-transform: skewY(2.6deg);
+	transform: skewY(2.6deg);
 
-	border-top: 1px solid #e7e7e7;
+	border-top: 1px dotted #010101;
 }
 #section-main {
 	background: #2468a2; /* Old browsers */
@@ -120,32 +148,23 @@ header,
 	margin-bottom: 20px;
 }
 .work-links {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 .img-skills {
-	margin-right: auto;
-	margin-left: auto;
-}
-.tools-text {
-	line-height: 21px;
-}
-.tools-chart {
-	height: 24px;
-	margin-bottom: 7px;
+	margin: 0 auto 15px;
+  max-width: 100px;
 }
 #contact-btn {
-	margin-top: 30px;
-	margin-bottom: 0px;
+	margin-top: 40px;
+	margin-bottom: 10px;
 }
 #contact-btn a {
+  display: inline-block;
 	padding: 12px 20px;
+  transition: all .33s ease-in-out;
 
-	-webkit-transition: all .33s; /* Safari */
-    transition: all .33s;
-
-	color: #111;
-	/*background-color: #111;*/
-	border: 2px solid #111;
+	color: #010101;
+	border: 1px solid #010101;
 }
 #contact-btn a:hover,
 #contact-btn a:focus {
@@ -155,11 +174,10 @@ header,
 	background-color: #111;
 }
 footer {
-	padding-top: 60px;
+	padding-top: 5px;
 	padding-bottom: 90px;
 
-	color: #888;
-	/*background-color: #efefef;*/
+	color: rgba(0,0,0,0.67);
 }
 footer p,
 footer a {
@@ -168,47 +186,16 @@ footer a {
 	font-size: 14px;
 }
 footer a {
-	color: #555;
+	color: #010101;
 }
 footer a:hover,
 footer a:focus {
 	text-decoration: none;
 
-	color: #111;
-
-	font-weight: 600;
-}
-.icon-social {
-	display: inline-block;
-
-	width: 35px;
-	height: 35px;
-
-	-webkit-transition: all .33s; /* Safari */
-    transition: all .33s;
-
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}
-#facebook {
-	background-image: url('../img/icon-fb.png');
-}
-#twitter {
-	background-image: url('../img/icon-tw.png');
-}
-#dribbble {
-	background-image: url('../img/icon-db.png');
-}
-#facebook:hover,
-#facebook:focus,
-#twitter:hover,
-#twitter:focus,
-#dribbble:hover,
-#dribbble:focus {
-	background-position: 0 -35px;
+	color: #5225ff;
 }
 
-@media (max-width:1600px) {
+/* @media (max-width:1600px) {
 
 }
 
@@ -217,7 +204,7 @@ footer a:focus {
 		font-size: 30px;
 		line-height: 30px;
 	}
-}
+} */
 
 @media (max-width:768px) {
 	h1, .h1 {
@@ -250,7 +237,7 @@ footer a:focus {
 
 		text-align: center;
 	}
-	#section-skills-inner,
+	/* #section-skills-inner, */
 	#footer-inner {
 	    margin-top: 40px;
 	    padding-top: 0;
@@ -267,7 +254,7 @@ footer a:focus {
 		font-size: 28px;
 	}
 	.work-links {
-		margin-top: 40px;
+		margin-top: 15px;
 	}
 	#tools-code {
 		margin-top: 50px;
@@ -280,10 +267,6 @@ footer a:focus {
 	.tools-chart {
 		margin-right: auto;
 		margin-left: auto;
-	}
-	.img-skills {
-		width: 60%;
-		max-width: 140px;
 	}
 	#contact-btn {
 	    margin-top: 10px;
