@@ -1,0 +1,94 @@
+pre {
+  display: block;
+  padding: 10px 25px 0;
+  margin: 20px 0 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #4b4b4b;
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+}
+.code-snippet-wrapper {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#project-demo {
+  background-color: #f7f9fa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.demo-wrapper {
+	margin-top:30px;
+}
+.time-wrapper {
+	display: inline-block;
+  font-weight: 600;
+}
+#time-of-day {
+  font-family: 'Roboto Slab', serif;
+	padding: 40px;
+	position: relative;
+}
+#time-of-day p {
+  color: white;
+  font-weight: 300;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+.its-daytime {
+	background: #ff961d;
+	background: -moz-linear-gradient(-45deg, #ff961d 0%, #ffc832 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff961d), color-stop(100%,#ffc832)); /* Chrome,Safari4+ */
+	background: -o-linear-gradient(-45deg, #ff961d 0%,#ffc832 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, #ff961d 0%,#ffc832 100%); /* IE10+ */
+	background: linear-gradient(135deg, #ff961d 0%,#ffc832 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff961d', endColorstr='#ffc832',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+.its-nighttime {
+	background: #323493;
+	background: -moz-linear-gradient(-45deg, #323493 0%, #111140 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#323493), color-stop(100%,#111140)); /* Chrome,Safari4+ */
+	background: -o-linear-gradient(-45deg, #323493 0%,#111140 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, #323493 0%,#111140 100%); /* IE10+ */
+	background: linear-gradient(135deg, #323493 0%,#111140 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#323493', endColorstr='#111140',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+.its-daytime .time-goes-here,
+.its-nighttime .time-goes-here {
+	background-position: left center;
+	background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+.its-daytime .time-goes-here {
+	background-image: url('../img/sun.png');
+	background-image: url('../img/sun.svg'),none;
+}
+.its-nighttime .time-goes-here {
+	background-image: url('../img/cloud.png');
+	background-image: url('../img/cloud.svg'),none;
+}
+#time-amPm {
+	font-weight: 100;
+}
+@media (max-width: 768px) {
+	.text-right {
+		text-align: center;
+	}
+	#time-of-day {
+		padding:30px 20px 40px;
+	}
+  #time-of-day p {
+    font-size: 1.666em;
+  }
+	.its-daytime .time-goes-here ,
+	.its-nighttime .time-goes-here {
+		padding-top: 60px;
+		background-position: center top;
+	}
+}
