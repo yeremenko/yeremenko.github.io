@@ -41,17 +41,17 @@ header {
 }
 header #header-logo {
   display: block;
-  width: 100px;
+  width: 135px;
   height: 32px;
   background-color: #fff;
-  background-image: url('../img/new-goat.png');
+  background-image: url('../img/yrmnko-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   transition: all .5s ease;
 }
 header #header-logo:hover,
 header #header-logo:focus {
-  background-image: url('../img/new-goat-invert.png');
+  background-image: url('../img/yrmnko-logo-invert.png');
   text-decoration: none;
   cursor: pointer;
 }
