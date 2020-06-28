@@ -23,9 +23,15 @@ p {
   color: #6e6e6e;
 }
 header,
+footer #about {
+  max-width: 960px;
+}
+.wrapper {
+  max-width: 780px;
+}
+header,
 .wrapper,
 footer #about {
-  max-width: 780px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -69,24 +75,27 @@ header a.nav-link {
 }
 header a.nav-link:hover {
   text-decoration: none;
-  border-bottom: 2px solid #222;
+}
+header a.nav-link.nav-link-selected {
+  border-bottom: 1px solid #222 !important;
 }
 header .contact-link-wrapper a.nav-link {
   margin-left: 16px;
 }
 #about-me {
-  padding: 100px 15px 160px;
+  padding: 100px 15px 100px;
 }
 #about-me .snippet {
   margin-bottom: 20px;
 }
 #about-me .img-skills-wrapper {
   align-items: center;
+  margin-top: 60px;
 }
 #about-me .img-skills-wrapper .img-skills {
-  width: 56px;
-  margin-right: 16px;
-  margin-left: 16px;
+  width: 70px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 a:not(#header-logo) {
   color: #222;
@@ -97,10 +106,15 @@ a:not(#header-logo):hover {
   text-decoration: none;
   border-bottom: 1px dotted #222;
 }
-a:active {
+a:not(#header-logo):active {
   color: #222;
   text-decoration: none;
   border-bottom: 1px solid #222;
+}
+a.btn-download {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 #work .wrapper {
   margin-left: auto;
@@ -138,7 +152,7 @@ a:active {
   margin-top: 10px;
 }
 #work .work-1 .wrapper{
-  border-top: 1px solid #e7e7e9;
+  /* border-top: 1px solid #e7e7e9; */
 }
 #work .work-alt {
   background-color: #f7f9fa;
@@ -201,10 +215,11 @@ footer p {
   margin-left: auto;
   margin-right: auto;
   padding: 100px 15px 100px 15px;
+  border-top: 1px solid #e7e7e9;
 }
-#tools .h1 {
+#tools .h2 {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 #tools .tools-single {
   margin-top: 20px;
