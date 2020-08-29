@@ -22,7 +22,7 @@ var setTime = function() {
 	}
 
 	// Check if its daytime or nighttime
-    // Daytime is 6am - 8pm
+    // Daytime is 6am - 6pm
 	if (nowHours >= 6 && nowHours <= 18) {
 		timeOfDayHTML.classList.add("its-daytime");
 	} else {
