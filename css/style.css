@@ -69,15 +69,14 @@ header .contact-link-wrapper {
 }
 header a.nav-link {
   color: #222;
-}
-header a.nav-link {
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px dashed #222;
 }
 header a.nav-link:hover {
   text-decoration: none;
+  border-bottom: 2px solid #222;
 }
 header a.nav-link.nav-link-selected {
-  border-bottom: 1px solid #222 !important;
+  border-bottom: 2px solid #222 !important;
 }
 header .contact-link-wrapper a.nav-link {
   margin-left: 16px;
